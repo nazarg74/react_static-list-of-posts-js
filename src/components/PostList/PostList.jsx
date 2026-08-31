@@ -1,5 +1,6 @@
-import { PostInfo } from '../PostInfo/PostInfo';
-import './PostList.scss';
+import './PostInfo.scss';
+import { UserInfo } from '../UserInfo/UserInfo';
+import { CommentList } from '../CommentList/CommentList';
 
 export const PostList = ({ posts }) => (
   <div className="PostList">
